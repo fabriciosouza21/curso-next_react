@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.azul{
+  color: aqua;
+}
+.vermelho{
+  color: crimson;
+}
