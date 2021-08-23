@@ -1,5 +1,5 @@
 
-function mega(qtde = 6, numeros = []){
+export function mega(qtde = 6, numeros = []){
     if (qtde < 6 && qtde > 60){
         throw "quatidade invalida"
     }
@@ -17,5 +17,3 @@ function mega(qtde = 6, numeros = []){
     return mega(qtde, numeros)
     }
 }
-
-console.log(mega())
